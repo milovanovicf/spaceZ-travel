@@ -165,8 +165,8 @@
     }
 
     @media only screen and(max-width: 550px) {
-      height: 12rem;
-      padding: 0 5rem;
+      //height: 12rem;
+      padding: 0 3rem;
       font-size: 15px;
       line-height: 25px;
     }
@@ -180,6 +180,7 @@
 
     @media only screen and(max-width: 550px) {
       flex-direction: column;
+      padding-top: 0;
     }
 
     &-container {
@@ -197,7 +198,7 @@
         }
 
         @media only screen and(max-width: 550px) {
-          padding: 4rem 0;
+          padding: 2rem 0;
         }
       }
     }
@@ -219,7 +220,7 @@
       }
 
       @media only screen and(max-width: 550px) {
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
       }
     }
 
@@ -251,7 +252,7 @@
 
   @media only screen and(max-width: 900px) {
     max-width: 50%;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
   }
 }
 

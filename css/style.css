@@ -533,8 +533,7 @@
         height: 14rem; } }
     @media only screen and (max-width: 550px) {
       .content--destinations__paragraph {
-        height: 12rem;
-        padding: 0 5rem;
+        padding: 0 3rem;
         font-size: 15px;
         line-height: 25px; } }
   .content--destinations__stats {
@@ -544,7 +543,8 @@
     align-items: center; }
     @media only screen and (max-width: 550px) {
       .content--destinations__stats {
-        flex-direction: column; } }
+        flex-direction: column;
+        padding-top: 0; } }
     .content--destinations__stats-container {
       width: 100%; }
       .content--destinations__stats-container:not(:last-child) {
@@ -557,7 +557,7 @@
             padding-right: 3rem; } }
         @media only screen and (max-width: 550px) {
           .content--destinations__stats-container:not(:last-child) {
-            padding: 4rem 0; } }
+            padding: 2rem 0; } }
     .content--destinations__stats__text {
       font-family: "Barlow Condensed", sans-serif;
       font-style: normal;
@@ -574,7 +574,7 @@
           letter-spacing: 2.3625px; } }
       @media only screen and (max-width: 550px) {
         .content--destinations__stats__text {
-          padding-bottom: 1.5rem; } }
+          padding-bottom: 1rem; } }
     .content--destinations__stats__num {
       font-family: "Bellefair", sans-serif;
       font-style: normal;
@@ -598,7 +598,7 @@
   @media only screen and (max-width: 900px) {
     .content__planet-container {
       max-width: 50%;
-      padding-bottom: 5rem; } }
+      padding-bottom: 3rem; } }
 
 .active-link {
   border-bottom: 3px solid #fff !important;
@@ -778,11 +778,10 @@
     @media only screen and (max-width: 550px) {
       .content-crew__img-container {
         border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-        flex: 0 0 45%;
+        flex: 0 0 33%;
         display: block;
         position: relative;
-        width: 100%;
-        height: 35rem; } }
+        width: 100%; } }
   .content-crew .crew-member {
     position: absolute;
     bottom: -5.1rem;
