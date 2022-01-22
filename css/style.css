@@ -206,7 +206,7 @@
       .content--destinations__text-container,
       .content-crew__text-container,
       .content-technology__text-container {
-        padding-bottom: 20rem; } }
+        padding-bottom: 15rem; } }
     @media only screen and (max-width: 770px) {
       .content__text-container,
       .content--destinations__text-container,
@@ -223,13 +223,30 @@
     font-weight: 400;
     letter-spacing: 4px;
     line-height: normal;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    color: #d0d6f9; }
     @media only screen and (max-width: 1100px) {
       .content__heading5,
       .content--destinations__heading5,
       .content-crew__heading5,
       .content-technology__heading5 {
         padding-bottom: 1rem; } }
+    @media only screen and (max-width: 900px) {
+      .content__heading5,
+      .content--destinations__heading5,
+      .content-crew__heading5,
+      .content-technology__heading5 {
+        padding-bottom: 1rem;
+        font-size: 20px;
+        line-height: 24px; } }
+    @media only screen and (max-width: 550px) {
+      .content__heading5,
+      .content--destinations__heading5,
+      .content-crew__heading5,
+      .content-technology__heading5 {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px; } }
   .content__heading1,
   .content--destinations__heading1,
   .content-crew__heading1,
@@ -247,6 +264,20 @@
       .content-technology__heading1 {
         font-size: 12rem;
         padding-bottom: 1rem; } }
+    @media only screen and (max-width: 900px) {
+      .content__heading1,
+      .content--destinations__heading1,
+      .content-crew__heading1,
+      .content-technology__heading1 {
+        font-size: 150px;
+        line-height: 150px; } }
+    @media only screen and (max-width: 550px) {
+      .content__heading1,
+      .content--destinations__heading1,
+      .content-crew__heading1,
+      .content-technology__heading1 {
+        font-size: 80px;
+        line-height: 100px; } }
   .content__paragraph,
   .content--destinations__paragraph,
   .content-crew__paragraph,
@@ -262,7 +293,23 @@
       .content--destinations__paragraph,
       .content-crew__paragraph,
       .content-technology__paragraph {
-        padding: 0 2rem; } }
+        padding: 0 7rem;
+        font-size: 20px;
+        line-height: 28px; } }
+    @media only screen and (max-width: 770px) {
+      .content__paragraph,
+      .content--destinations__paragraph,
+      .content-crew__paragraph,
+      .content-technology__paragraph {
+        padding: 0 5rem; } }
+    @media only screen and (max-width: 550px) {
+      .content__paragraph,
+      .content--destinations__paragraph,
+      .content-crew__paragraph,
+      .content-technology__paragraph {
+        padding: 0;
+        font-size: 15px;
+        line-height: 25px; } }
   .content__btn-container,
   .content--destinations__btn-container,
   .content-crew__btn-container,
@@ -319,8 +366,15 @@
       .content--destinations__btn-container,
       .content-crew__btn-container,
       .content-technology__btn-container {
-        height: 23rem;
-        width: 23rem; } }
+        height: 24rem;
+        width: 24rem; } }
+    @media only screen and (max-width: 550px) {
+      .content__btn-container,
+      .content--destinations__btn-container,
+      .content-crew__btn-container,
+      .content-technology__btn-container {
+        height: 15rem;
+        width: 15rem; } }
   .content__btn,
   .content--destinations__btn,
   .content-crew__btn,
@@ -330,6 +384,22 @@
     text-transform: uppercase;
     color: #0b0d17;
     letter-spacing: 5px; }
+    @media only screen and (max-width: 900px) {
+      .content__btn,
+      .content--destinations__btn,
+      .content-crew__btn,
+      .content-technology__btn {
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 2px; } }
+    @media only screen and (max-width: 550px) {
+      .content__btn,
+      .content--destinations__btn,
+      .content-crew__btn,
+      .content-technology__btn {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: 1.25px; } }
 
 .content--destinations {
   padding: 0 25rem;
