@@ -6,6 +6,11 @@
   align-items: center;
   height: 9.5rem;
   position: relative; }
+  @media only screen and (max-width: 900px) {
+    .navigation {
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 2.3625px; } }
   @media only screen and (max-width: 550px) {
     .navigation {
       height: 7rem; } }
@@ -418,7 +423,8 @@
       padding: 2rem 5rem; } }
   @media only screen and (max-width: 550px) {
     .content--destinations {
-      padding: 1rem; } }
+      padding: 1rem;
+      justify-content: flex-start; } }
   .content--destinations__text {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 3rem;
@@ -433,12 +439,17 @@
     @media only screen and (max-width: 900px) {
       .content--destinations__text {
         align-self: flex-start;
-        font-size: 2rem;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
         padding: 2rem 0; } }
     @media only screen and (max-width: 550px) {
       .content--destinations__text {
         padding: 5rem 0;
-        align-self: center; } }
+        align-self: center;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px; } }
     .content--destinations__text__number {
       padding-right: 3rem;
       opacity: 0.25;
@@ -464,7 +475,15 @@
     letter-spacing: 4px; }
     @media only screen and (max-width: 900px) {
       .content--destinations__menu {
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 2.7px;
         justify-content: center; } }
+    @media only screen and (max-width: 550px) {
+      .content--destinations__menu {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px; } }
   .content--destinations__item {
     transition: all 0.3s; }
     .content--destinations__item:not(:first-child) {
@@ -483,8 +502,13 @@
     padding: 2rem 0; }
     @media only screen and (max-width: 900px) {
       .content--destinations__heading1 {
-        font-size: 8rem;
+        font-size: 80px;
+        line-height: 92px;
         padding: 1rem 0; } }
+    @media only screen and (max-width: 550px) {
+      .content--destinations__heading1 {
+        font-size: 56px;
+        line-height: 64px; } }
   .content--destinations__paragraph {
     font-family: "Barlow", sans-serif;
     font-size: 1.8rem;
@@ -501,18 +525,25 @@
     @media only screen and (max-width: 900px) {
       .content--destinations__paragraph {
         height: 11rem;
-        font-size: 1.6rem; } }
+        font-size: 16px;
+        line-height: 28px; } }
     @media only screen and (max-width: 770px) {
       .content--destinations__paragraph {
         height: 14rem; } }
     @media only screen and (max-width: 550px) {
       .content--destinations__paragraph {
-        height: 16rem; } }
+        height: 12rem;
+        padding: 0 5rem;
+        font-size: 15px;
+        line-height: 25px; } }
   .content--destinations__stats {
     padding-top: 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: center; }
+    @media only screen and (max-width: 550px) {
+      .content--destinations__stats {
+        flex-direction: column; } }
     .content--destinations__stats-container {
       width: 100%; }
       .content--destinations__stats-container:not(:last-child) {
@@ -523,6 +554,9 @@
         @media only screen and (max-width: 1300px) {
           .content--destinations__stats-container:not(:last-child) {
             padding-right: 3rem; } }
+        @media only screen and (max-width: 550px) {
+          .content--destinations__stats-container:not(:last-child) {
+            padding: 4rem 0; } }
     .content--destinations__stats__text {
       font-family: "Barlow Condensed", sans-serif;
       font-style: normal;
@@ -532,6 +566,14 @@
       letter-spacing: 2.3625px;
       text-transform: uppercase;
       color: #d0d6f9; }
+      @media only screen and (max-width: 900px) {
+        .content--destinations__stats__text {
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: 2.3625px; } }
+      @media only screen and (max-width: 550px) {
+        .content--destinations__stats__text {
+          padding-bottom: 1.5rem; } }
     .content--destinations__stats__num {
       font-family: "Bellefair", sans-serif;
       font-style: normal;
@@ -540,10 +582,7 @@
       line-height: 3.2rem;
       text-transform: uppercase;
       color: #ffffff;
-      padding-top: 1rem;
-      /*  @media only screen and(max-width: 1300px) {
-          font-size: 2.3rem;
-        } */ }
+      padding-top: 1rem; }
 
 .content__planet-container {
   grid-column: 2 / span 3;
@@ -557,7 +596,8 @@
       grid-column: 2 / span 3; } }
   @media only screen and (max-width: 900px) {
     .content__planet-container {
-      max-width: 50%; } }
+      max-width: 50%;
+      padding-bottom: 5rem; } }
 
 .active-link {
   border-bottom: 3px solid #fff !important;

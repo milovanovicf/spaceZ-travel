@@ -19,6 +19,7 @@
 
   @media only screen and(max-width: 550px) {
     padding: 1rem;
+    justify-content: flex-start;
   }
 
   //PICK YOUR DESTINATION TEXT
@@ -37,14 +38,18 @@
 
     @media only screen and(max-width: 900px) {
       align-self: flex-start;
-      font-size: 2rem;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 3.375px;
       padding: 2rem 0;
     }
 
     @media only screen and(max-width: 550px) {
       padding: 5rem 0;
-
       align-self: center;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2.7px;
     }
 
     &__number {
@@ -81,7 +86,16 @@
     letter-spacing: 4px;
 
     @media only screen and(max-width: 900px) {
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 2.7px;
       justify-content: center;
+    }
+
+    @media only screen and(max-width: 550px) {
+      font-size: 14px;
+      line-height: 17px;
+      letter-spacing: 2.3625px;
     }
   }
 
@@ -111,8 +125,14 @@
     padding: 2rem 0;
 
     @media only screen and(max-width: 900px) {
-      font-size: 8rem;
+      font-size: 80px;
+      line-height: 92px;
       padding: 1rem 0;
+    }
+
+    @media only screen and(max-width:550px) {
+      font-size: 56px;
+      line-height: 64px;
     }
   }
 
@@ -135,7 +155,8 @@
 
     @media only screen and(max-width: 900px) {
       height: 11rem;
-      font-size: 1.6rem;
+      font-size: 16px;
+      line-height: 28px;
     }
 
     @media only screen and(max-width: 770px) {
@@ -143,7 +164,10 @@
     }
 
     @media only screen and(max-width: 550px) {
-      height: 16rem;
+      height: 12rem;
+      padding: 0 5rem;
+      font-size: 15px;
+      line-height: 25px;
     }
   }
 
@@ -152,6 +176,10 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+
+    @media only screen and(max-width: 550px) {
+      flex-direction: column;
+    }
 
     &-container {
       width: 100%;
@@ -166,6 +194,10 @@
         @media only screen and(max-width: 1300px) {
           padding-right: 3rem;
         }
+
+        @media only screen and(max-width: 550px) {
+          padding: 4rem 0;
+        }
       }
     }
 
@@ -177,8 +209,17 @@
       line-height: 1.7rem;
       letter-spacing: 2.3625px;
       text-transform: uppercase;
-
       color: #d0d6f9;
+
+      @media only screen and(max-width: 900px) {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 2.3625px;
+      }
+
+      @media only screen and(max-width: 550px) {
+        padding-bottom: 1.5rem;
+      }
     }
 
     &__num {
@@ -190,10 +231,6 @@
       text-transform: uppercase;
       color: #ffffff;
       padding-top: 1rem;
-
-      /*  @media only screen and(max-width: 1300px) {
-          font-size: 2.3rem;
-        } */
     }
   }
 }
@@ -213,6 +250,7 @@
 
   @media only screen and(max-width: 900px) {
     max-width: 50%;
+    padding-bottom: 5rem;
   }
 }
 
