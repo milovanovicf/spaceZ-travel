@@ -423,8 +423,9 @@
       padding: 2rem 5rem; } }
   @media only screen and (max-width: 550px) {
     .content--destinations {
-      padding: 1rem;
-      justify-content: flex-start; } }
+      padding: 0 1rem;
+      justify-content: flex-start;
+      margin-top: 1rem; } }
   .content--destinations__text {
     font-family: "Barlow Condensed", sans-serif;
     font-size: 3rem;
@@ -445,7 +446,7 @@
         padding: 2rem 0; } }
     @media only screen and (max-width: 550px) {
       .content--destinations__text {
-        padding: 5rem 0;
+        padding-bottom: 3rem;
         align-self: center;
         font-size: 16px;
         line-height: 19px;
